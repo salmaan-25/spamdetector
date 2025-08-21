@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Spam Detector</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+<div class="container">
+<h1>📧🪲 Spam Detector</h1>
+<p class="sub">Type a message below and check if it’s Spam or Ham.</p>
+
+
+<div class="card">
+<textarea id="message" rows="5" placeholder="Enter your message to check..."></textarea>
+<button id="checkBtn">Check</button>
+<p id="result"></p>
+</div>
+
+
+<footer>Built with Flask + scikit-learn <br><br> copyrights © 2025 <br><br> Mohamed Salmaan </footer>
+</div>
+
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

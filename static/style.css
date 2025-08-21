@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body {
+margin: 0; font-family: system-ui, Arial, sans-serif; background: #0f172a; color: #e2e8f0;
+}
+.container { max-width: 720px; margin: 40px auto; padding: 0 16px; }
+h1 { margin: 0 0 6px; font-size: 28px; }
+.sub { margin: 0 0 24px; color: #94a3b8; }
+.card {
+background: #111827; border: 1px solid #1f2937; border-radius: 16px; padding: 16px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+textarea {
+width: 100%; border: 1px solid #374151; background: #0b1220; color: #e5e7eb;
+border-radius: 12px; padding: 12px; font-size: 16px; outline: none;
+}
+textarea:focus { border-color: #60a5fa; }
+button {
+margin-top: 12px; padding: 10px 16px; border: 0; border-radius: 12px; cursor: pointer;
+background: #2563eb; color: #fff; font-weight: 600;
+}
+button:hover { background: #1d4ed8; }
+#result { margin-top: 14px; font-size: 16px; }
+footer { margin-top: 24px; color: #64748b; font-size: 13px; text-align: center; }
+
+/* smooth background change */
+body { transition: background-color 0.4s ease; }
+
+/* flash colors */
+body.is-spam { background: #7f1d1d; }   /* deep red */
+body.is-ham  { background: #064e3b; }   /* deep green */
