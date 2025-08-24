@@ -17,4 +17,4 @@ jaxlib==0.4.34
 
 # Web server
 gunicorn==21.2.0
-
+joblib==1.4.2
