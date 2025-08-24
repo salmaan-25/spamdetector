@@ -4,7 +4,7 @@ torchvision==0.22.1
 torchaudio==2.7.1
 
 # TensorFlow (CPU only)
-tensorflow==2.15.0
+tensorflow==2.20.0
 tf-keras==2.15.0  # avoids keras 3 issue
 
 # Transformers (NLP)
