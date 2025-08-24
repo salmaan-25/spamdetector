@@ -1,6 +1,6 @@
-# PyTorch (CPU only, latest available)
+# PyTorch (CPU only, supported in deploy env)
 torch==2.7.1
-torchvision==0.20.1
+torchvision==0.22.1
 torchaudio==2.7.1
 
 # TensorFlow (CPU only)
@@ -11,6 +11,6 @@ tf-keras==2.15.0  # avoids keras 3 issue
 transformers==4.45.2
 huggingface-hub==0.24.6
 
-# JAX (use compatible versions)
+# JAX (compatible versions)
 jax==0.4.28
 jaxlib==0.4.28
