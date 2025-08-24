@@ -1,8 +1,18 @@
-pip==24.0
-flask==3.0.3
-scikit-learn==1.2.2
-pandas==1.5.3
-numpy==1.23.5
-scipy==1.9.3
-joblib==1.2.0
-gunicorn==20.1.0
+# Hugging Face + Deep Learning stack (Python 3.12 compatible)
+
+# PyTorch (CPU only – works everywhere)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# TensorFlow (CPU only)
+tensorflow==2.15.0
+tf-keras==2.15.0  # compatibility layer instead of keras 3
+
+# Transformers (NLP)
+transformers==4.41.2
+huggingface-hub==0.23.0
+
+# JAX (compatible versions)
+jax==0.4.25
+jaxlib==0.4.25
