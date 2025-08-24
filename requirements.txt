@@ -1,18 +1,16 @@
-# Hugging Face + Deep Learning stack (Python 3.12 compatible)
-
-# PyTorch (CPU only – works everywhere)
-torch==2.2.2
-torchvision==0.17.2
-torchaudio==2.2.2
+# PyTorch (CPU only, latest available)
+torch==2.7.1
+torchvision==0.20.1
+torchaudio==2.7.1
 
 # TensorFlow (CPU only)
 tensorflow==2.15.0
-tf-keras==2.15.0  # compatibility layer instead of keras 3
+tf-keras==2.15.0  # avoids keras 3 issue
 
 # Transformers (NLP)
-transformers==4.41.2
-huggingface-hub==0.23.0
+transformers==4.45.2
+huggingface-hub==0.24.6
 
-# JAX (compatible versions)
-jax==0.4.25
-jaxlib==0.4.25
+# JAX (use compatible versions)
+jax==0.4.28
+jaxlib==0.4.28
