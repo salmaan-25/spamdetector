@@ -12,5 +12,6 @@ transformers==4.45.2
 huggingface-hub==0.24.6
 
 # JAX (compatible versions)
-jax==0.4.28
-jaxlib==0.4.28
+jax==0.4.34
+jaxlib==0.4.34
+
