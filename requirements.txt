@@ -15,3 +15,6 @@ huggingface-hub==0.24.6
 jax==0.4.34
 jaxlib==0.4.34
 
+# Web server
+gunicorn==21.2.0
+
